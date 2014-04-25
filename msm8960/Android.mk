@@ -1,4 +1,4 @@
-display-hals := libgralloc libgenlock libcopybit liblight
+display-hals := libgralloc libgenlock libcopybit
 display-hals += libhwcomposer liboverlay libqdutils libexternal libqservice
 display-hals += libmemtrack
 ifneq ($(TARGET_PROVIDES_LIBLIGHT),true)
